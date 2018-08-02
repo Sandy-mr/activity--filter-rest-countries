@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Countries</title>
+  <link rel='stylesheet' href='./styles.css' />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+  <div>
+    <header class="languages">
+      <div>
+        <h3>Countries by language</h3>
+        <span># <p id="country-number">0</p></span>
+      </div>
+      <div>
+        <button class="country">ALL</button>
+        <button class="country">EN</button>
+        <button class="country">ES</button>
+        <button class="country">FR</button>
+        <button class="country">PT</button>
+      </div>
+    </header>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Latitud</th>
+        <th>Longitud</th>
+        <th>Flag</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.3/superagent.min.js'></script>
+  <script src='./js/app.js'></script>
+</body>
+</html>
