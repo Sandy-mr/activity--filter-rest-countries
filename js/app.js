@@ -3,7 +3,7 @@ countries = "https://restcountries.eu/rest/v2/all";
 
 document.querySelectorAll(".country").forEach(function (button) {
   button.addEventListener('click', function (event) { 
-    var languages = event.target.textContent.toLowerCase();
+    var languages = event.target.value;
     console.log(languages)
     var count = 0;
     
